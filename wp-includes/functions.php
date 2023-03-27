@@ -27,6 +27,17 @@ require ABSPATH . WPINC . '/option.php';
  * @return string|int|false Integer if `$format` is 'U' or 'G', string otherwise.
  *                          False on failure.
  */
+
+function cc_mime_types($mimes) {
+
+    $mimes['svg'] = 'image/svg+xml';
+
+    return $mimes;
+
+}
+add_filter('upload_mimes','cc_mime_types');
+
+
 function mysql2date( $format, $date, $translate = true ) {
 	if ( empty( $date ) ) {
 		return false;
