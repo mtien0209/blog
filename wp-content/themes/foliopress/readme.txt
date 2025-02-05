@@ -3,8 +3,8 @@
 Contributors: themehorse
 Requires at least: 4.7
 Requires PHP: 5.2
-Tested up to: 5.8
-Stable tag: 1.1.7
+Tested up to: 6.3
+Stable tag: 1.1.8
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Tags: e-commerce, photography, portfolio, two-columns, three-columns, four-columns, left-sidebar, right-sidebar, grid-layout, custom-background, custom-header, custom-logo, custom-menu, featured-image-header, featured-images, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
@@ -28,12 +28,16 @@ FolioPress is distributed under the terms of the GNU GPLv3
  - https://pixabay.com/en/breakfast-healthy-hummus-spread-1804457/
  - https://pixabay.com/en/technology-digital-tablet-792177/
 * html5.js, Copyright 2014 Alexander Farkas, MIT/GPL2, https://github.com/aFarkas/html5shiv
-* Font Awesome, Copyright Dave Gandy, SIL OFL 1.1/MIT, http://fontawesome.io/license/
+* Font Awesome, Copyright Fonticons, Inc. (https://fontawesome.com), SIL OFL 1.1/MIT, https://fontawesome.com/license
 * Bootstrap, Copyright (c) 2011-2018 Twitter, Inc. Copyright (c) 2011-2018 The Bootstrap Authors, SIL OFL 1.1/MIT, https://getbootstrap.com/docs/4.0/about/license/
 * popper.js, Copyright (c) 2017 Federico Zivolo, MIT
 * Other all resources, Copyright 2018 Theme Horse, MIT/GPLv3
 
 == CHANGE LOG ==
+
+= 1.1.8 - 2023.10.3 =
+* Update - fontawesome updated to version 6.4.2
+* Update - twitter and threads social profile logo updated
 
 = 1.1.7 - 2021.9.9 =
 * Update - main navigation submenu color updated

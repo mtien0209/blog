@@ -124,7 +124,7 @@ add_filter('excerpt_more', 'foliopress_continue_reading');
  */
 function foliopress_scripts() {
 	wp_enqueue_style( 'bootstrap-style', get_template_directory_uri().'/bootstrap/css/bootstrap.min.css', array(), '4.0.0');
-	wp_enqueue_style('font-awesome-style', get_template_directory_uri().'/font-awesome/css/font-awesome.css');
+	wp_enqueue_style('font-awesome-style', get_template_directory_uri().'/font-awesome/css/all.min.css');
 
 	wp_register_style( 'foliopress-google-fonts', '//fonts.googleapis.com/css?family=Poppins:400,400i,500,500i,700,700i');
 	wp_enqueue_style( 'foliopress-google-fonts' );

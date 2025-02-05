@@ -4,9 +4,9 @@ Theme URI: https://www.themehorse.com/themes/foliopress
 Author: Theme Horse
 Author URI: https://www.themehorse.com/
 Description: FolioPress is a minimal Multi-Purpose super flexible Portfolio WordPress Theme that makes it easy to showcase your work, blog and store. FolioPress is specially designed for designers, photographers, artists and creatives. There are two post view layout (Grid and list), Social Profile and many more. Also has Custom Background, Header, Menu, Favicon, CSS, Webclip Icon, and Logo. Supports popular plugins like WooCommerce, bbPress, Breadcrumb NavXT, WP-PageNavi and Contact Form 7 and many more. It is also translation ready. Get free support at https://www.themehorse.com/support-forum/ and view beautiful portfolio demo site at https://www.themehorse.com/preview/foliopress
-Version: 1.1.7
+Version: 1.1.8
 Requires PHP: 5.2
-Tested up to: 5.8
+Tested up to: 6.3
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Text Domain: foliopress
@@ -686,10 +686,10 @@ a:hover {
 	content: '\f17d';
 }
 .social-profiles ul li a[href*="twitter.com"]:hover {
-	color: #55acee;
+	color: #000;
 }
 .social-profiles ul li a[href*="twitter.com"]:before {
-	content: '\f099';
+	content: '\e61b';
 }
 .social-profiles ul li a[href*="facebook.com"]:hover {
 	color: #3c5a99;
@@ -794,6 +794,12 @@ a:hover {
 }
 .social-profiles ul li a[href$="/feed/"]:before {
 	content: '\f09e';
+}
+.social-profiles ul li a[href*="threads.net"]:hover {
+	color: #000;
+}
+.social-profiles ul li a[href*="threads.net"]:before {
+	content: '\e618';
 }
 
 /*--------------------------------------------------------------
